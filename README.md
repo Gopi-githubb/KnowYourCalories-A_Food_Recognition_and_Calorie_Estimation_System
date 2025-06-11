@@ -56,6 +56,24 @@ KnowYourCalories/
 │
 └── README.md
 
+---
+
+## 🧪 Getting Started
+# 1. Clone the repository
+git clone https://github.com/yourusername/KnowYourCalories.git
+cd KnowYourCalories
+
+# 2. (Optional) Create a virtual environment
+python -m venv venv
+source venv/bin/activate      # macOS/Linux
+venv\Scripts\activate         # Windows
+
+# 3. Install the required libraries
+pip install -r requirements.txt
+
+# 4. Run the Flask application
+python app.py
+
 
 
 
