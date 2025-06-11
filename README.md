@@ -70,8 +70,8 @@ Follow these steps to set up and run the project on your local machine.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/KnowYourCalories.git
-cd KnowYourCalories
+git clone https://github.com/Gopi-githubb/KnowYourCalories-A_Food_Recognition_and_Calorie_Estimation_System.git
+cd KnowYourCalories-A_Food_Recognition_and_Calorie_Estimation_System
 
 # 2. (Optional) Create and activate a virtual environment
 python -m venv venv
@@ -83,6 +83,7 @@ pip install -r requirements.txt
 
 # 4. Run the Flask application
 python app.py
+
 
 
 
