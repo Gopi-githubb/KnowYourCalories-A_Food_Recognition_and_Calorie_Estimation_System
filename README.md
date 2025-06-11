@@ -25,5 +25,34 @@
 ---
 
 ## 📂 Project Structure
+KnowYourCalories/
+├── app.py                         # Main Flask application
+├── food_recognition.py           # Model prediction logic
+├── calorie_estimation.py         # Calorie calculation logic
+├── requirements.txt              # Python dependencies
+│
+├── model/
+│   ├── train_model.py            # Training script
+│   └── trained_model.h5          # Pretrained MobileNetV2 model
+│
+├── templates/
+│   └── index.html                # Web interface
+│
+├── static/
+│   ├── style.css                 # Styling for frontend
+│   └── script.js                 # Optional JS functionality
+│
+├── utils/
+│   ├── calorie_db.py             # Food-calorie mapping
+│   └── helper_functions.py       # Any reusable utilities
+│
+├── feedback/
+│   └── feedback.txt              # User-submitted corrections
+│
+├── docs/
+│   └── KnowYourCaloriesPaper.pdf # Project research paper
+│
+└── README.md
+
 
 
