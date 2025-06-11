@@ -100,15 +100,17 @@ You will be able to:
 
 ## 📸 Sample Screenshots
 
-> *(Add images inside a folder named `screenshots/` and update the paths below)*
 
-- 🖼️ Home Page  
+- 🖼️ Home Page
+-   
   ![Home Page](screenshots/home.png)
 
-- 🖼️ Upload & Prediction Result  
+- 🖼️ Upload & Prediction Result
+- 
   ![Upload Result](screenshots/prediction_result.png)
 
-- 🖼️ Feedback Form  
+- 🖼️ Feedback Form
+- 
   ![Feedback](screenshots/feedback_form.png)
 
 ---
