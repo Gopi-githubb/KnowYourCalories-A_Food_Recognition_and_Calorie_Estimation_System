@@ -58,6 +58,7 @@ KnowYourCalories/
 
 ---
 
+
 ## 🧪 Getting Started
 
 Follow these steps to set up and run the project on your local machine.
@@ -79,14 +80,11 @@ python -m venv venv
 source venv/bin/activate      # For macOS/Linux
 venv\Scripts\activate         # For Windows
 
-### ⚙️ Installation & Running the App
+# 3. Install required dependencies
+pip install -r requirements.txt
 
-```bash
-# 1. Clone the repository
-...
 # 4. Run the Flask application
 python app.py
-
 
 
 
