@@ -79,9 +79,11 @@ python -m venv venv
 source venv/bin/activate      # For macOS/Linux
 venv\Scripts\activate         # For Windows
 
-# 3. Install required dependencies
-pip install -r requirements.txt
+### ⚙️ Installation & Running the App
 
+```bash
+# 1. Clone the repository
+...
 # 4. Run the Flask application
 python app.py
 
