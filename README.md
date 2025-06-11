@@ -55,7 +55,7 @@ KnowYourCalories/
 │   └── KnowYourCaloriesPaper.pdf # Your research paper
 │
 └── README.md
-
+```bash
 
 ## 🧪 Getting Started
 
