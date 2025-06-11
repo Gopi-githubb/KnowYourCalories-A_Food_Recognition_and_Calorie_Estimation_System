@@ -90,6 +90,64 @@ Once the Flask server is running, open your browser and go to:
 http://127.0.0.1:5000
 
 
+You will be able to:
+
+- 📷 Upload a food image  
+- 🔍 Get the food name and estimated calories  
+- ✍️ Submit feedback if the prediction is incorrect  
+
+---
+
+## 📸 Sample Screenshots
+
+> *(Add images inside a folder named `screenshots/` and update the paths below)*
+
+- 🖼️ Home Page  
+  ![Home Page](screenshots/home.png)
+
+- 🖼️ Upload & Prediction Result  
+  ![Upload Result](screenshots/prediction_result.png)
+
+- 🖼️ Feedback Form  
+  ![Feedback](screenshots/feedback_form.png)
+
+---
+
+## 👨‍💻 Team Members
+
+| Name              |  Email                            |
+|-------------------|-----------------------------------|
+| **B. Sujal**      |  sujal703991@gmail.com            |
+| **K. E. Mahathi** |  mahathikamavaram@gmail.com       |
+| **K. Gopi Chand** |  gopichandk.edu@gmail.com         |
+
+> **Guided by:**  
+> Dr. B. Suvarnamukhi  
+> Associate Professor, Dept. of CSE  
+> Sreyas Institute of Engineering and Technology, Hyderabad
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for full details.
+
+---
+
+## 📄 Research Paper
+
+📘 Read our paper: [`KnowYourCaloriesPaper.pdf`](docs/KnowYourCaloriesPaper.pdf)
+
+---
+
+## 🙌 Acknowledgements
+
+- Sreyas Institute of Engineering and Technology  
+- JNTUH Hyderabad  
+- TensorFlow, Flask, OpenCV communities  
+- All teammates and contributors
+
 
 
 
