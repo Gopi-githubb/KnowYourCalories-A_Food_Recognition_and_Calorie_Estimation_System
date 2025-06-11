@@ -115,16 +115,17 @@ You will be able to:
 
 ## 👨‍💻 Team Members
 
-| Name              |  Email                            |
-|-------------------|-----------------------------------|
-| **B. Sujal**      |  sujal703991@gmail.com            |
-| **K. E. Mahathi** |  mahathikamavaram@gmail.com       |
-| **K. Gopi Chand** |  gopichandk.edu@gmail.com         |
+| Name              | Email                            |
+|-------------------|----------------------------------|
+| **B. Sujal**      | sujal703991@gmail.com            |
+| **K. E. Mahathi** | mahathikamavaram@gmail.com       |
+| **K. Gopi Chand** | gopichandk.edu@gmail.com         |
 
 > **Guided by:**  
 > Dr. B. Suvarnamukhi  
 > Associate Professor, Dept. of CSE  
 > Sreyas Institute of Engineering and Technology, Hyderabad
+
 
 ---
 
