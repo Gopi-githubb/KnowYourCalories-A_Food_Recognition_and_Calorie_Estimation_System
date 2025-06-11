@@ -26,6 +26,8 @@
 
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
 ```bash
 KnowYourCalories/
 ├── app.py                         # Main Flask application
@@ -56,7 +58,6 @@ KnowYourCalories/
 │
 └── README.md
 
----
 
 
 
