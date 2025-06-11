@@ -25,7 +25,10 @@
 ---
 
 ## 📂 Project Structure
-    KnowYourCalories/
+## 📂 Project Structure
+
+```bash
+KnowYourCalories/
 ├── app.py                         # Main Flask application
 ├── food_recognition.py           # Logic to load model and predict food
 ├── calorie_estimation.py         # Maps predictions to calorie values
