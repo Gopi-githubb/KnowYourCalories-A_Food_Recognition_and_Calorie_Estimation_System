@@ -25,7 +25,6 @@
 ---
 
 ## 📂 Project Structure
-## 📂 Project Structure
 
 ```bash
 KnowYourCalories/
