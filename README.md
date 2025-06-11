@@ -56,9 +56,10 @@ KnowYourCalories/
 │
 └── README.md
 
----
 
 ## 🧪 Getting Started
+
+```bash
 # 1. Clone the repository
 git clone https://github.com/yourusername/KnowYourCalories.git
 cd KnowYourCalories
@@ -73,6 +74,7 @@ pip install -r requirements.txt
 
 # 4. Run the Flask application
 python app.py
+
 
 
 
