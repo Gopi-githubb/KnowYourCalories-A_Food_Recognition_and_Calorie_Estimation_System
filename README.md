@@ -1,23 +1,27 @@
 # 🍱 KnowYourCalories: Food Recognition and Calorie Estimation System
 
-KnowYourCalories is a deep learning-based web application that identifies food items from user-uploaded images and estimates their calorie content. The system is designed to promote dietary awareness and healthier eating habits by providing instant nutritional insights.
+**KnowYourCalories** is a deep learning-based web application designed to recognize food items from images and estimate their calorie content. The system promotes dietary awareness and supports healthier eating habits by providing instant nutritional insights.
 
-Built using **MobileNetV2** for food classification and **Flask** for web deployment, this project is a part of our academic research at **Sreyas Institute of Engineering and Technology**, Hyderabad.
+Developed as part of an academic research project at **Sreyas Institute of Engineering and Technology, Hyderabad**, this solution integrates **MobileNetV2** for food classification and **Flask** for web deployment.
 
 ---
 
 ## 📋 Abstract
 
-This system offers a robust solution for recognizing foods and estimating their calorie content using the **MobileNetV2 deep learning model**. It is known for speed and efficiency in identifying different foods from images and calculating their associated calorie counts. The web interface allows users to upload meal images, receive predictions, and get calorie estimations. A user feedback mechanism helps refine the model over time.
+This system offers a robust solution for recognizing food and estimating calorie content using the **MobileNetV2 deep learning model**. Known for its speed and efficiency, MobileNetV2 accurately identifies different foods from images and calculates their associated calorie counts.
+
+The application is accessible through an intuitive web interface where users can upload pictures of their meals. The pre-trained MobileNetV2 model classifies the food, and calorie estimation is performed using a predefined calorie database.
+
+Additionally, a user feedback mechanism allows users to correct inaccurate predictions, helping improve the model's accuracy over time.
 
 ---
 
 ## 🎯 Objectives
 
-- ✅ To develop a deep learning-based food recognition system using MobileNetV2.
-- ✅ To estimate the total calorie content of recognized food items using a predefined calorie database.
-- ✅ To create an intuitive and user-friendly web interface for easy image uploads and result display.
-- ✅ To incorporate a user feedback system for continuous model improvement.
+- ✅ Develop a food recognition system using a deep learning model.
+- ✅ Estimate the total calorie content of recognized food items using a predefined database.
+- ✅ Build a user-friendly web interface for easy image uploads and display of results.
+- ✅ Incorporate a user feedback mechanism to improve system performance over time.
 
 ---
 
@@ -36,18 +40,18 @@ This system offers a robust solution for recognizing foods and estimating their 
 ```
 
 KnowYourCalories/
-├── app/                     # Flask application backend logic
-├── static/                  # Static frontend files (CSS, JavaScript)
-├── templates/               # HTML templates for the web interface
-├── food-101/                # Food-101 dataset (used for training and testing)
+├── app/                     # Flask backend application logic
+├── static/                  # Static files (CSS, JavaScript)
+├── templates/               # HTML templates for web interface
+├── food-101/                # Food-101 dataset used for training/testing
 ├── app.py                   # Main Flask application file
-├── datasetcreation.py       # Script for dataset preprocessing and preparation
-├── train\_model.py           # Script to train the MobileNetV2 model
+├── datasetcreation.py       # Script for dataset preparation
+├── train\_model.py           # MobileNetV2 model training script
 ├── test.py                  # Script for testing the trained model
-├── app.zip                  # Compressed version of the app folder (optional)
+├── app.zip                  # Compressed project folder (optional)
 ├── research\_paper/          # Academic research paper
 │   └── KnowYourCaloriesPaper.pdf
-├── README.md                # Project documentation (this file)
+├── README.md                # Project documentation
 └── requirements.txt         # Python dependencies (to be created)
 
 ````
@@ -57,37 +61,48 @@ KnowYourCalories/
 ## 📈 Methodology
 
 1. **Model Selection:**  
-   MobileNetV2 was selected for its balance between accuracy and computational efficiency.
+   MobileNetV2 was selected for its balance between accuracy and computational efficiency, making it suitable for deployment on resource-constrained devices.
 
 2. **Dataset Preparation:**  
-   - Utilized the **Food-101 dataset** containing various food categories.  
-   - Images were resized, normalized, and tensorized to fit the model input requirements.
+   - Dataset: **Food-101**  
+   - Preprocessing: Images resized to 224×224 pixels, normalized, and tensorized.
 
 3. **Model Training:**  
-   - Transfer learning with MobileNetV2.
-   - The final layer was adjusted to classify the food categories in the dataset.
+   - Performed transfer learning using MobileNetV2.
+   - The final layer was modified to match the number of food classes.
 
 4. **Web Interface Development:**  
-   - Developed using **Flask**, with **HTML**, **CSS**, and **JavaScript** for the frontend.
+   - Developed using **Flask**.
+   - Frontend: **HTML**, **CSS**, and **JavaScript**.
+   - Image upload functionality implemented for user inputs.
 
 5. **Prediction and Calorie Estimation:**  
-   - The trained model predicts the food class from the uploaded image.
-   - A predefined calorie database is used to calculate total calories.
+   - Uploaded images are processed and fed into the trained model.
+   - Predictions are mapped to calorie values from a predefined database.
 
 6. **User Feedback Mechanism:**  
-   - Users can submit corrections if the prediction is wrong.
-   - Feedback is stored for future model retraining.
+   - Users can provide feedback if the prediction is incorrect.
+   - Feedback is stored for future model improvements.
 
 ---
 
-## ⚙️ Installation
+## ✅ Results
 
-### ✅ Prerequisites:
+- ✅ **Accuracy:** Achieved high accuracy in food recognition across multiple categories.
+- ✅ **Efficiency:** Demonstrated fast and efficient image processing, suitable for real-time use.
+- ✅ **User Interface:** Provided an intuitive and easy-to-use web interface.
+- ✅ **User Feedback:** Enabled continuous improvement through user-submitted feedback.
+
+---
+
+## ✅ Installation
+
+### Prerequisites:
 
 - Python 3.8 or higher
 - Git
 
-### ✅ Installation Steps:
+### Installation Steps:
 
 ```bash
 # 1. Clone the repository
@@ -96,10 +111,10 @@ cd KnowYourCalories
 
 # 2. (Optional) Create and activate a virtual environment
 python -m venv venv
-source venv/bin/activate       # On macOS/Linux
-venv\Scripts\activate          # On Windows
+source venv/bin/activate      # On macOS/Linux
+venv\Scripts\activate         # On Windows
 
-# 3. Install Python dependencies
+# 3. Install required Python packages
 pip install -r requirements.txt
 
 # 4. Run the Flask application
@@ -110,7 +125,7 @@ python app.py
 
 ## 🚀 Usage
 
-After running the Flask server, open your web browser and go to:
+Once the Flask server is running, open your web browser and navigate to:
 
 ```
 http://127.0.0.1:5000
@@ -118,21 +133,35 @@ http://127.0.0.1:5000
 
 ### Features:
 
-* 📷 **Upload a food image**
-* 🔍 **View the predicted food name and estimated calorie count**
-* ✍️ **Submit feedback if the prediction is inaccurate**
+* 📷 Upload a food image.
+* 🔍 View the predicted food name and estimated calorie count.
+* ✍️ Submit feedback if the prediction is inaccurate.
 
 ---
 
 ## 📸 Screenshots *(Optional)*
 
-> *You can add actual images later by saving them in a `/screenshots` folder and updating the links below.*
-
-### Example Screenshots:
+> *You can create a `/screenshots` folder and add images here for better visualization.*
 
 * 🖼️ Home Page
 * 🖼️ Prediction Result
 * 🖼️ Feedback Form
+
+---
+
+## ✅ Conclusion
+
+This project demonstrates the successful application of **MobileNetV2** for food recognition and calorie estimation. The system provides an efficient, user-friendly tool for dietary tracking and health management.
+
+The integration of a feedback mechanism and real-time processing ensures the system remains accurate and reliable, meeting the needs of diverse users.
+
+---
+
+## ✅ Future Work
+
+* 📌 **Expand Calorie Database:** Include a broader range of food items.
+* 📌 **Model Improvement:** Further improve accuracy using additional data and user feedback.
+* 📌 **Mobile Application Development:** Build a mobile app version for enhanced accessibility.
 
 ---
 
@@ -144,9 +173,8 @@ http://127.0.0.1:5000
 | K. E. Mahathi | [mahathikamavaram@gmail.com](mailto:mahathikamavaram@gmail.com) |
 | K. Gopi Chand | [gopichandk.edu@gmail.com](mailto:gopichandk.edu@gmail.com)     |
 
-### Guided By:
-
-**Dr. B. Suvarnamukhi**
+**Guided By:**
+Dr. B. Suvarnamukhi
 Associate Professor, Department of CSE
 Sreyas Institute of Engineering and Technology, Hyderabad
 
@@ -154,7 +182,7 @@ Sreyas Institute of Engineering and Technology, Hyderabad
 
 ## 📄 Research Paper 📚
 
-Our detailed research paper for academic reference is available here:
+Our detailed research paper describing this project is available here:
 
 📄 [`research_paper/KnowYourCaloriesPaper.pdf`](research_paper/KnowYourCaloriesPaper.pdf)
 
@@ -163,7 +191,6 @@ Our detailed research paper for academic reference is available here:
 ## 📜 License
 
 This project **currently does not have any open-source license**.
-
 If you wish to use, modify, or distribute this project, **please contact the authors for permission**.
 
 ---
@@ -173,12 +200,11 @@ If you wish to use, modify, or distribute this project, **please contact the aut
 * Sreyas Institute of Engineering and Technology
 * JNTUH Hyderabad
 * TensorFlow, Flask, and OpenCV open-source communities
-* Our team members and faculty
+* Our teammates, faculty, and all contributors
 
 ---
 
 ```
 
 ---
-
 
