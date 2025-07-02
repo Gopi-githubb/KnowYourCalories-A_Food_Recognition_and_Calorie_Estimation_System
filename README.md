@@ -184,7 +184,7 @@ Sreyas Institute of Engineering and Technology, Hyderabad
 
 Our detailed research paper describing this project is available here:
 
-📄 [`research_paper/KnowYourCaloriesPaper.pdf`](research_paper/KnowYourCaloriesPaper.pdf)
+📄 [`research_paper/KnowYourCaloriesPaper.pdf`](Research_Paper/KnowYourCaloriesPaper.pdf)
 
 ---
 
