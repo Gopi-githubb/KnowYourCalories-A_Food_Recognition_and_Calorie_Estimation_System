@@ -1,158 +1,84 @@
-# 🍱 KnowYourCalories – Food Recognition and Calorie Estimation System
-
-**KnowYourCalories** is a web-based system that uses deep learning to identify food items from images and estimate their calorie content. Built with **MobileNetV2** and **Flask**, this application enables users to upload meal images and instantly receive nutritional insights. The system is designed to help users track their food intake and adopt healthier eating habits.
 
 ---
 
-## 🚀 Project Features
+## ⚙️ Installation
 
-- 🔍 **Food Recognition** using the MobileNetV2 deep learning model
-- 🍔 **Calorie Estimation** based on a predefined food-calorie database
-- 🌐 **Web Interface** developed with Flask, HTML, CSS, and JavaScript
-- ✍️ **User Feedback Mechanism** to improve model accuracy over time
-- 📈 **Real-time Results** with intuitive UI and interactive experience
-
----
-
-## 🛠️ Technologies Used
-
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Backend**: Python, Flask
-- **Machine Learning**: TensorFlow, Keras (MobileNetV2)
-- **Libraries**: OpenCV, NumPy, Pandas
-- **Tools**: Visual Studio Code, Git, GitHub
-
----
-
-## 📂 Project Structure
-
-```bash
-KnowYourCalories/
-├── app.py                         # Main Flask application
-├── food_recognition.py           # Logic to load model and predict food
-├── calorie_estimation.py         # Maps predictions to calorie values
-├── requirements.txt              # List of required Python libraries
-│
-├── model/
-│   ├── train_model.py            # Code to train MobileNetV2
-│   └── trained_model.h5          # Trained model file
-│
-├── templates/
-│   └── index.html                # Upload interface
-│
-├── static/
-│   ├── style.css                 # Styling for frontend
-│   └── script.js                 # Optional JavaScript
-│
-├── utils/
-│   ├── calorie_db.py             # Calorie database (food: calories)
-│   └── helper_functions.py       # Any utility/helper code
-│
-├── feedback/
-│   └── feedback.txt              # Stores user corrections
-│
-├── docs/
-│   └── KnowYourCaloriesPaper.pdf # Your research paper
-│
-└── README.md
-```
-
-## 🧪 Getting Started
-
-Follow these steps to set up and run the project on your local machine.
+Follow these steps to set up and run the project locally:
 
 ### ✅ Prerequisites
 
-- Python 3.8 or above  
-- Git installed
+- Python 3.8 or higher  
+- Git  
 
-### ⚙️ Installation & Running the App
+### ✅ Steps
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Gopi-githubb/KnowYourCalories-A_Food_Recognition_and_Calorie_Estimation_System.git
-cd KnowYourCalories-A_Food_Recognition_and_Calorie_Estimation_System
+git clone https://github.com/Sujal-Bangari/KnowYourCalories.git
+cd KnowYourCalories
 
 # 2. (Optional) Create and activate a virtual environment
 python -m venv venv
-source venv/bin/activate      # For macOS/Linux
-venv\Scripts\activate         # For Windows
+source venv/bin/activate      # On macOS/Linux
+venv\Scripts\activate         # On Windows
 
-# 3. Install required dependencies
+# 3. Install required Python libraries
 pip install -r requirements.txt
 
 # 4. Run the Flask application
 python app.py
-```
+🚀 Usage
+After starting the Flask server, open your web browser and navigate to:
 
-### 🌐 Access the Application
-Once the Flask server is running, open your browser and go to:
+cpp
+Copy
+Edit
 http://127.0.0.1:5000
+✅ What You Can Do:
+📷 Upload a food image
 
+🔍 View the predicted food name and estimated calorie count
 
-You will be able to:
+✍️ Submit feedback if the prediction is incorrect
 
-- 📷 Upload a food image  
-- 🔍 Get the food name and estimated calories  
-- ✍️ Submit feedback if the prediction is incorrect  
+📸 Screenshots (Optional)
+You can create a /screenshots folder and add your screenshots here for better visualization.
 
----
+Example Screenshots:
+🖼️ Home Page
 
-## 📸 Sample Screenshots
+🖼️ Prediction Result Page
 
+🖼️ Feedback Form Page
 
-- 🖼️ Home Page
--   
-  ![Home Page](screenshots/home.png)
+👨‍💻 Team Members
+Name	Email
+B. Sujal	sujal703991@gmail.com
+K. E. Mahathi	mahathikamavaram@gmail.com
+K. Gopi Chand	gopichandk.edu@gmail.com
 
-- 🖼️ Upload & Prediction Result
-- 
-  ![Upload Result](screenshots/prediction_result.png)
+Guided By:
+Dr. B. Suvarnamukhi
+Associate Professor, Department of CSE
+Sreyas Institute of Engineering and Technology, Hyderabad
 
-- 🖼️ Feedback Form
-- 
-  ![Feedback](screenshots/feedback_form.png)
+📄 Research Paper 📚
+Our detailed research paper describing this project is available in the repository:
 
----
+📄 research_paper/KnowYourCaloriesPaper.pdf
 
-## 👨‍💻 Team Members
+📜 License
+This project does not currently use any open-source license.
 
-| Name              | Email                            |
-|-------------------|----------------------------------|
-| **B. Sujal**      | sujal703991@gmail.com            |
-| **K. E. Mahathi** | mahathikamavaram@gmail.com       |
-| **K. Gopi Chand** | gopichandk.edu@gmail.com         |
+If you wish to use, distribute, or modify this code, please contact the project authors for permission.
 
-> **Guided by:**  
-> Dr. B. Suvarnamukhi  
-> Associate Professor, Dept. of CSE  
-> Sreyas Institute of Engineering and Technology, Hyderabad
+🙌 Acknowledgements
+We sincerely thank the following for their support and resources:
 
+Sreyas Institute of Engineering and Technology
 
----
+JNTUH Hyderabad
 
-## 📜 License
+TensorFlow, Flask, and OpenCV open-source communities
 
-This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for full details.
-
----
-
-## 📄 Research Paper
-
-📘 Read our paper: [`KnowYourCaloriesPaper.pdf`](docs/KnowYourCaloriesPaper.pdf)
-
----
-
-## 🙌 Acknowledgements
-
-- Sreyas Institute of Engineering and Technology  
-- JNTUH Hyderabad  
-- TensorFlow, Flask, OpenCV communities  
-- All teammates and contributors
-
-
-
-
-
-
+Our teammates, faculty, and all contributors
