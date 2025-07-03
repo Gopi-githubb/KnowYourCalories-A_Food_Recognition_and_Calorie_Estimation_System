@@ -141,7 +141,6 @@ http://127.0.0.1:5000
 
 ## 📸 Screenshots *(Optional)*
 
-> *You can create a `/screenshots` folder and add images here for better visualization.*
 
 * 🖼️ Home Page
 * 🖼️ Prediction Result
